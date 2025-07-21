@@ -1,0 +1,75 @@
+15-07-2025 :- Today i learned git
+
+What is git - a distributed version control system 
+
+Why git - Track project history 
+          Supports collaboration
+          Branching and merging 
+          Backup of code in remote repositoried like GitHub
+
+Key Concepts - 
+    Repository - A folder where Git tracks your projects and its history
+    Clone - Make  a copy of a remote Repository on your computer 
+    Stage: Tell Git which changes you want to save next.
+    Commit: Save a snapshot of your staged changes.
+    Branch: Work on different versions or features at the same time.
+    Merge: Combine changes from different branches.
+    Pull: Get the latest changes from a remote repository.
+    Push: Send your changes to a remote repository.
+
+Configuration -     2 level - local, global, system
+    git config --global user.name "your name "    
+    git config --global user.email "your email"
+    git cinfig user.name "Project Name"
+
+16-07-2025 :- Today i solved one DSA question of reverse of words of string - import java.util.*;
+
+
+        class Solution {
+            public static void main (String args[]){
+                Scanner sc = new Scanner(System.in);
+                System.out.print("Enter an string : ");
+                String input = sc.nextLine();
+                
+                String reverseString = reverseWords(input);
+                System.out.print("Here is your reverse String :" + reverseString);
+            }
+
+            public static String reverseWords(String s) {
+                String[] words = s.trim().split("\\s+");
+
+                StringBuilder reversed = new StringBuilder();
+
+                for (int i = words.length-1; i >=0; i--){
+                    reversed.append(words[i]);
+
+
+                    if (i != 0){
+                        reversed.append(" ");
+                    }
+                }
+                return reversed.toString();
+            }
+        }
+
+    I also explored about the CSS framework called TailwindCSS - Tailwind CSS is a utility-first CSS framework used to style web pages directly in HTML using predefined classes.
+        Steps 1) Install Tailwind
+
+              2) Set path of file in Configuration
+            
+              3) create CSS file
+
+              4) build TailwindCSS using this command - npx tailwindcss -i ./input.css -o ./output.css --watch
+
+
+17-07-2025 :- today i read an article it's not magic part 1 in which 
+              the writer shares how using and building software can feel like magic, from early days with MapQuest to modern apps like Lyft. 
+              But behind that magic are basic technologies like HTML, APIs, and databases. 
+              Even though tech can seem boring, creating software still brings a special kind of joy.
+
+              I also posted on linkedIn for joining Tech Mahindra Foundation. 
+
+18-07-2025 :- Today i learned about API and fetching API like by map and Flatlist
+
+21-07-2025 :- today I learned about fetch the data from the API ,
+              I fetched ID and service_description.
