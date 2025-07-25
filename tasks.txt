@@ -73,3 +73,18 @@ Configuration -     2 level - local, global, system
 
 21-07-2025 :- today I learned about fetch the data from the API ,
               I fetched ID and service_description.
+
+22-07-2025 :- today i have explored  a littile bit about backend in javascript
+
+23-07-2025 :- today i have read an article "The Benefits of Sticking Around"- Staying at one company for several years builds deep credibility, 
+              insight into legacy systems, and empathy through living with past decisions. 
+              It also allows you to see the long-term payoff of your contributions. 
+              While job-hopping may boost salary and exposure, long-term roles offer unique growth and satisfaction. 
+              Choose a stable, growth-oriented company with good people and meaningful problems to solve.
+
+24-07-2025 :- today i have read and article "What We Mean When We Say “Software Engineer”" - 
+              Doug Durham explains that the term "software engineer" is often used incorrectly, which causes confusion in the tech industry. 
+              He describes four main roles: developer, software engineer, senior engineer, and software architect — each with different skills and responsibilities. 
+              Developers write code, while engineers focus on design, quality, and teamwork. 
+              Senior engineers guide others and lead projects, and architects plan the whole system before coding begins. 
+              Doug says we need better education and clearer role understanding to keep up with growing technology needs and avoid problems in the future.              
